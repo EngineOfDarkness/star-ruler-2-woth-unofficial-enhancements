@@ -1,0 +1,23 @@
+	Name: Unofficial SR2 WotH Enhancements
+	Description: <<
+		Bugfixes and other Enhancements
+		
+		[h1]Current version: 1.0.0[/h1]
+		
+		[b]Entries prefixed with an exclamation mark ! WILL BREAK OLD saves (won't load correctly) - you need to start a new game, period.
+		The same applies when the first version number changes if you update. See README for details.[/b]
+		
+		[b]Please note that using this with other big mods MIGHT create horrible crashes and weird game behaviour due to conflicts.[/b]
+		
+		[b]In such case I would advise informing the author of the mod you are using, so he can merge things he wants or needs from this mod.[/b]
+		
+		[h1]Fixes:[/h1]
+		- [b]![/b] Fixes "Pin Object floating" Popups not being saved / loaded correctly
+		
+		
+		The up to date README and CHANGELOG aswell as details for bugs can be found in the GitHub Repository:
+		
+		https://github.com/EngineOfDarkness/star-ruler-2-woth-unofficial-enhancements
+		
+	>>
+	Compatibility: 200
