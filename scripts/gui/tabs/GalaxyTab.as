@@ -253,6 +253,8 @@ class GalaxyTab : Tab {
 			file << obj;
 			vec2i pos = popups[i].position;
 			file << pos;
+			bool isFloating = popups[i].objLinked;
+			file << isFloating;
 		}
 
 		file << quickbar;
@@ -269,9 +271,12 @@ class GalaxyTab : Tab {
 
 			vec2i pos;
 			file >> pos;
+			
+			bool isFloating;
+			file >> isFloating;
 
 			if(obj !is null) {
-				Popup@ pop = pinObject(obj);
+				Popup@ pop = pinObject(obj, isFloating);
 				pop.position = pos;
 			}
 		}
