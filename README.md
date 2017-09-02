@@ -28,7 +28,9 @@ Credit or something like that is not necessary, but feel free to.
 * Open the installation directory of Star Ruler 2 - you should see folders like `bin`, `data`, `locales` in there.
 * There should also be a `mods` folder - if not create one.
 * Then open the `mods` folder
-* Create a new Folder inside `mods` - you can name it as you wish, e.g. ``
+* Create a new Folder inside `mods` - you can name it as you wish, e.g. `sr2-ue`
+* Copy everything into this folder so you end up with something like `SR2-Directory/mods/sr2-ue/scripts/...`, `SR2-Directory/mods/sr2-ue/scripts/README.md`, etc.
+* Start game - should show you the mod in the mod list.
 
 ## Important things to keep in mind when using this mod
 
